@@ -12,7 +12,7 @@ library(tidyr)
 # obtain the updated file
 #   readr::read_csv downloads and unzips .csv.gz
 # ghcn <- data.table::fread("https://www1.ncdc.noaa.gov/pub/data/ghcn/daily/by_station/USW00014839.csv.gz",
-ghcn <- data.table::fread("https://www1.ncdc.noaa.gov/pub/data/ghcn/daily/by_station/JA000047662.csv.gz",                          
+ghcn <- data.table::fread("https://www1.ncdc.noaa.gov/pub/data/ghcn/daily/by_station/USW00014839.csv.gz",                          
                           col.names = c("id", "yearmoda", "element", "value",
                                         "mflag", "qflag", "sflag", "obs_time"),
                           colClasses = list(character=c(1:3,5:8),
