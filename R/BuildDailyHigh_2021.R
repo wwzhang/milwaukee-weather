@@ -5,7 +5,7 @@ library(dplyr)
 library(lubridate)
 library(stringr)
 
-ghcn <- read_csv("data/GHCN_USW00014839.csv") %>%
+ghcn <- read_csv("data/GHCN_JA000047662.csv") %>%
   filter(year < 2022)
 
 year.to.plot <- max(ghcn$year)
