@@ -5,7 +5,7 @@ library(dplyr)
 library(lubridate)
 library(stringr)
 
-ghcn <- read_csv("data/GHCN_USW00014839.csv") |>
+ghcn <- read_csv("data/GHCN_JA000047662.csv") |>
   group_by(year) |>
   arrange(day_of_year) |>
   mutate(cum_precip = cumsum(PRCP)) |>
