@@ -104,7 +104,7 @@ max.graph <- daily.summary.stats |>
                # the 1st day of each month
                minor_breaks = unique(daily.summary.stats$date[daily.summary.stats$day == "01"]),
                name = NULL) +
-  labs(title = "Daily High Temperature at Milwaukee's Mitchell Airport",
+  labs(title = "Daily High Temperature at Bar Harbor's Mitchell Airport",
        subtitle = paste("The line shows daily highs for",
                         paste0(lubridate::year(last.date), "."),
                         "The ribbons cover the",
