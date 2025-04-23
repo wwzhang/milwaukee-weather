@@ -37,4 +37,4 @@ ghcn.wide <- ghcn |>
   select(year, month, day, date, day_of_year, PRCP, SNOW, SNWD,
          TMAX, TMIN)
 
-write_csv(ghcn.wide, "data/GHCN_USW00014839.csv")
+write_csv(ghcn.wide, "data/GHCN_JA000047662.csv")
