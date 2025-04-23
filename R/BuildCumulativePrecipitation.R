@@ -90,7 +90,7 @@ cum.precip.graph <- daily.summary.stats |>
                      breaks = month.breaks$day_of_year + 15,
                      labels = month.breaks$month_name,
                      name = NULL) +
-  labs(title = "Cumulative annual precipitation at Milwaukee's Mitchell Airport",
+  labs(title = "Cumulative annual precipitation at Bar Harbor's Mitchell Airport",
        subtitle = paste("The line shows precipitation for",
                         paste0(lubridate::year(last.date), "."),
                         "The ribbons cover the",
